@@ -9,7 +9,7 @@ import joblib
 import numpy as np
 
 # Load dataset
-df = pd.read_csv("C:/Users/David Horne/PycharmProjects/pythonphishing_url_classifier/PhishingdataSet/archive/malicious_phish.csv")
+df = pd.read_csv("malicious_phish.zip")
 
 # Clean and prepare
 df = df.dropna().drop_duplicates()
